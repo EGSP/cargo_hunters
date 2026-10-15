@@ -1,0 +1,13 @@
+﻿# Personal game data and local-only instructions
+/backups/
+/AGENTS.md
+/docs/diagnostics/
+
+# Downloaded third-party binaries and generated build output
+/tools/*
+!/tools/*.ps1
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
